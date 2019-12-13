@@ -1,0 +1,51 @@
+body {
+    background-image: url(/img/img2.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    margin-bottom: 1.5rem;
+}
+form div:last-child {
+    margin-bottom: 1.5rem;
+}
+
+form .input-field label {
+    color: whitesmoke;
+}
+form .input-field input:focus + label {
+    color: rgb(21, 226, 123);
+}
+form .input-field input:focus {
+    color: whitesmoke;
+    border-bottom: 1px solid rgb(21, 226, 123);
+}
+form .input-field input {
+    color: whitesmoke;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/* .page-footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+} */
+textarea {
+    color: white;
+}
+.bodyTxt {
+    word-wrap: break-word;
+}
+.botton {
+    text-overflow: clip !important;
+}
+
